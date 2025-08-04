@@ -12,5 +12,7 @@ useful commands for ffmpeg: trim clips, combine videos, etc.
 
 **example**
 
-`ffmpeg -ss 03:13:42 -i 'input.mp4' -t 00:10:45 -c copy output.mp4`
+```bash
+ffmpeg -ss 03:13:42 -i 'input.mp4' -t 00:10:45 -c copy output.mp4
+```
 
